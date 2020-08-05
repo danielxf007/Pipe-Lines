@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://piece/piece.gd" type="Script" id=1]
+[ext_resource path="res://assets/Green/pipeGreen_01.png" type="Texture" id=2]
 
 [node name="Piece" type="Sprite"]
+texture = ExtResource( 2 )
 script = ExtResource( 1 )
+SELECT_COLORS = [ "ffffff", "50ffffff" ]
