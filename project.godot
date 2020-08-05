@@ -8,15 +8,24 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Sprite",
+"class": "Piece",
+"language": "GDScript",
+"path": "res://piece/piece.gd"
+} ]
 _global_script_class_icons={
-
+"Piece": ""
 }
 
 [application]
 
 config/name="Pipe Lines"
 config/icon="res://icon.png"
+
+[autoload]
+
+UtilFunctions="*res://util/util_functions.gd"
 
 [rendering]
 
